@@ -1,0 +1,7 @@
+interface:
+  display_name: "Codex Prompting"
+  short_description: "Compile requests into grounded Codex prompts"
+  default_prompt: "Use $codex-prompting to turn this request into one paste-ready prompt for Codex."
+
+policy:
+  allow_implicit_invocation: true

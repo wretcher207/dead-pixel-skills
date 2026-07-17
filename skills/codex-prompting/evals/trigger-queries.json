@@ -1,0 +1,66 @@
+[
+  {
+    "query": "Turn this rough feature request into a prompt I can paste into Codex.",
+    "should_trigger": true
+  },
+  {
+    "query": "Can you harden my Codex prompt so it finishes the UI work and proves the interaction works?",
+    "should_trigger": true
+  },
+  {
+    "query": "Write instructions for Codex to diagnose this stack trace without changing anything.",
+    "should_trigger": true
+  },
+  {
+    "query": "I have a screenshot and a messy paragraph. Make a good Codex implementation prompt from them.",
+    "should_trigger": true
+  },
+  {
+    "query": "Rewrite this repo audit request so Codex reports findings but does not edit files.",
+    "should_trigger": true
+  },
+  {
+    "query": "Make this long-running Codex task less likely to wander or stop after just compiling.",
+    "should_trigger": true
+  },
+  {
+    "query": "Claude is writing the prompt, but Codex will execute it. Make it portable.",
+    "should_trigger": true
+  },
+  {
+    "query": "Critique this Codex prompt and return one improved paste-ready version.",
+    "should_trigger": true
+  },
+  {
+    "query": "Build the settings page in this repository.",
+    "should_trigger": false
+  },
+  {
+    "query": "Use Codex to fix this test failure.",
+    "should_trigger": false
+  },
+  {
+    "query": "Explain how AGENTS.md precedence works in Codex.",
+    "should_trigger": false
+  },
+  {
+    "query": "What model should I use for a difficult refactor?",
+    "should_trigger": false
+  },
+  {
+    "query": "Review this pull request for regressions.",
+    "should_trigger": false
+  },
+  {
+    "query": "Write a system prompt for a customer support chatbot.",
+    "should_trigger": false
+  },
+  {
+    "query": "Improve this marketing prompt for ChatGPT.",
+    "should_trigger": false
+  },
+  {
+    "query": "Can you implement the plan in HANDOFF.md and run the tests?",
+    "should_trigger": false
+  }
+]
