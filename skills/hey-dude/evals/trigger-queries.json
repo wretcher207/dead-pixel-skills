@@ -1,0 +1,7 @@
+[
+  {"query":"Hey dude, what were we doing with the checkout bug?","should_trigger":true},
+  {"query":"Pick up the mobile redesign from the handoff.","should_trigger":true},
+  {"query":"Resume the API timeout investigation.","should_trigger":true},
+  {"query":"Audit every repository on my computer for stale branches.","should_trigger":false},
+  {"query":"Deploy the latest changes now.","should_trigger":false}
+]

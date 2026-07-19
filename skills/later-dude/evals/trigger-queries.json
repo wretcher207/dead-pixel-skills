@@ -1,0 +1,7 @@
+[
+  {"query":"Later dude — save a handoff for the next session.","should_trigger":true},
+  {"query":"Let's wrap up this feature safely.","should_trigger":true},
+  {"query":"Ship it and save what we learned.","should_trigger":true},
+  {"query":"Investigate a failing test and fix it.","should_trigger":false},
+  {"query":"Scan every repo on this computer and push anything pending.","should_trigger":false}
+]

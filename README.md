@@ -18,6 +18,18 @@ It helps any Agent Skills-compatible authoring agent:
 - choose verification proportional to the risk of the requested work;
 - produce portable Markdown that does not depend on the authoring agent.
 
+### [`hey-dude`](skills/hey-dude/SKILL.md)
+
+A portable session-start bookend. It focuses a resume on one selected project,
+checks its current instructions, handoff, and working state, then moves into
+the requested work without scanning personal memory stores or unrelated work.
+
+### [`later-dude`](skills/later-dude/SKILL.md)
+
+A portable end-of-session bookend. It verifies the selected work, preserves a
+concise handoff, and requires explicit authority before committing, pushing,
+deploying, publishing, or otherwise changing external state.
+
 ## Install
 
 Copy the skill directory into the skills location used by your agent:
@@ -25,6 +37,8 @@ Copy the skill directory into the skills location used by your agent:
 ```sh
 git clone https://github.com/wretcher207/dead-pixel-skills.git
 cp -R dead-pixel-skills/skills/codex-prompting YOUR_AGENT_SKILLS_DIRECTORY/
+cp -R dead-pixel-skills/skills/hey-dude YOUR_AGENT_SKILLS_DIRECTORY/
+cp -R dead-pixel-skills/skills/later-dude YOUR_AGENT_SKILLS_DIRECTORY/
 ```
 
 Common personal skill directories include:
@@ -50,10 +64,16 @@ Ask your agent to create or improve a prompt for Codex:
 The skill writes the prompt. It does not execute the target task unless you
 separately request execution.
 
+For session bookends:
+
+> Use the hey-dude skill to resume the selected project.
+
+> Use the later-dude skill to close out this session and preserve a handoff.
+
 ## Validate
 
 ```sh
-./skills/codex-prompting/scripts/validate.sh
+./scripts/validate-skills.sh
 ```
 
 ## License
