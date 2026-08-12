@@ -1,0 +1,14 @@
+[
+  {"query":"Make a YouTube thumbnail for this video.","should_trigger":true},
+  {"query":"Design a Shorts cover for the vertical cut.","should_trigger":true},
+  {"query":"My CTR is bad, can you redesign the thumbnail?","should_trigger":true},
+  {"query":"Turn this screenshot into a video cover in 16:9 and 9:16.","should_trigger":true},
+  {"query":"Give me three A/B thumbnail concepts for the launch video.","should_trigger":true},
+  {"query":"Write the prompt and asset list so I can generate this thumbnail myself.","should_trigger":true},
+  {"query":"Design a logo for my channel.","should_trigger":false},
+  {"query":"Make the channel banner and profile picture.","should_trigger":false},
+  {"query":"Add lower-third graphics to the video itself.","should_trigger":false},
+  {"query":"Write the video description and tags.","should_trigger":false},
+  {"query":"Build the thumbnail from the PNGs already in this repo.","should_trigger":true},
+  {"query":"Composite the before and after screenshots into a cover and show me how it looks small.","should_trigger":true}
+]
